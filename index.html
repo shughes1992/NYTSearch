@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NYT Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="text/javascript"> href = "assets/javascript/app.js" </script>
+
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #F8F8F8
+        }
+    </style>
+    </head>
+
+    <!-- Jumbotron Title -->
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <div class="jumbotron">
+                        <h1>New York
+                            <span id="user-text">
+                                <strong>Times</strong>
+                                <i>Search</i>
+                            </span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Adding Search Paramater panel with input form -->
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <strong>Search Parameters</strong>
+                </h3>
+            </div>
+            <div class="panel-body">
+
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Search Term</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Number of Records to Retrieve</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Start Year (Optional)</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">End Year (Optional)</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                    </div>
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Search</button>
+                        <button type="button" class="btn btn-default">
+                            <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>Clear Results</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--Adding panel to input the search RESULTS  -->
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <strong>Top Articles</strong>
+                </h3>
+            </div>
+            <div class="panel-body">
+            </div>
+        </div>
+    </body>
+
+</html>
